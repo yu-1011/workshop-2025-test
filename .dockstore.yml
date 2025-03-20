@@ -1,0 +1,9 @@
+version: 1.2
+workflows:
+  - subclass: WDL
+  primaryDescriptorPath: /wdl-101-bam.wdl
+  # testParameterFiles:
+  # - /optional.json
+  authors:
+    - orcid: 0009-0000-4793-0561
+    - name: Yu
